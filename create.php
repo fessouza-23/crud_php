@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>Sistema de Usuários</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
-  <!-- Add Font Awesome from CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
     i {
@@ -52,7 +51,7 @@
           <div class="field">
             <label class="label"><i class="fas fa-envelope"></i> Email</label>
             <div class="control">
-              <input class="input is-rounded" type="email" name="email" required>
+              <input class="input is-rounded" type="text" name="email">
             </div>
           </div>
 

@@ -11,7 +11,6 @@ $usuarios = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <title>Sistema de Usuários</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
-    <!-- Add Font Awesome from CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         i {
@@ -21,7 +20,7 @@ $usuarios = $stmt->fetchAll(PDO::FETCH_ASSOC);
         .table-container {
             border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+            box-shadow: 0 3px 4px rgba(10, 10, 10, 0.7);
         }
         
         .table tbody tr:first-child td {
