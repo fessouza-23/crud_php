@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
 require_once('config/db.php');
 
 $stmt = $pdo->query("SELECT * FROM users ORDER BY id DESC");

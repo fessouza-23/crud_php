@@ -1,5 +1,5 @@
 <?php
-$host = 'localhost';
+$host = (php_sapi_name() === 'cli') ? 'localhost' : 'db';
 $db = 'crud_php';
 $user = 'root';
 $pass = '';
